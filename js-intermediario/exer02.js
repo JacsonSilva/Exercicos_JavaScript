@@ -28,8 +28,52 @@ console.log("false")
 
 var banana = true;
 
-if(banana == banana){
+if(banana === banana){
     console.log("Banana é igual a Banana")
 }else{
-    console.log("False")
+    console.log("Falso")
 }
+
+/* Exerciao D*/
+var a = 50;
+if(a===a){
+    console.log(50,"é estritamente igual a", 50 )
+}else{
+    console.log("falso");
+}
+
+/*Exercico E*/
+var carro = true;
+var bicicleta = false
+if(carro!== bicicleta){
+console.log("Carro é diferente de Biciclete")
+}else{
+    console.log("falso")
+}
+
+/*Exercico F */
+
+var num1 = 50;
+var num2 = 27;
+
+
+if(num1 > num2){
+    console.log(num1,"é maior que",num2)
+}else{
+console.log("false")
+
+}
+
+/*Exercico G */
+
+var num1 = 975;
+var num2 = 1200;
+
+
+if(num1 <= num2){
+    console.log(num1,"é menor ou igual a",num2)
+}else{
+console.log("false")
+
+}
+
